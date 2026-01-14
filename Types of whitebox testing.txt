@@ -1,0 +1,47 @@
+White Box Testing is also known as clear box, glass box, or open box testing. 
+
+
+1.Statement Coverage: Statement coverage is to execute all statements at least once. Hence, each
+line of code is tested. In the case of a flowchart, every node must be checked at least once. 
+
+
+2.Branch Coverage: 
+Branch coverage focuses on testing the decision points or conditional branches in the
+code. 
+It checks whether both possible outcomes (true and false) of each conditional statement are tested.
+ 
+Here test cases are designed so that each branch from all decision points is traversed at least
+once. 
+
+3.Conditional Coverage: All individual conditions must be covered.
+
+Condition coverage ensures that each individual condition in a decision 
+
+
+4.Path Coverage: Covers all possible execution paths through the code.
+
+5. In this technique, all the possible combinations of the possible outcomes
+of conditions are tested at least once.
+
+6. Basis Path Testing:   Here control flow graphs are made from code or flowchart and then
+Cyclomatic complexity is calculated which defines the number of independent paths so that the minimal
+number of test cases can be designed for each independent path.
+
+7. Loop Testing: Loops are used and these are fundamental algorithm hence, their testing
+is very important. Errors often occur at the beginnings and ends of loops.
+
+Nested loops: 
+In nested loops, all the loops are set to their minimum count, and we start from the
+inner loop. Simple loop tests are conducted for the innermost loop and this is worked outwards till all
+the loops have been tested.
+
+Concatenated loops: All loops are tested separately one after the other.Simple loop tests are applied for each. If they’re not independent, treat them like nesting.
+
+Important points:
+Internal focus: It tests the internal structure and logic of the software, rather than just the external
+functionality from a user's perspective. It is often performed by developers .It focuses on  software's architecture.
+Methods: Common techniques include statement coverage (ensuring every line of code is executed),
+branch coverage (ensuring every branch of a conditional statement is executed), and path coverage.
+Automation: It can be highly automated as it relies on the internal structure, but it also requires significant
+maintenance when the code is updated. 
+
